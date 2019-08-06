@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    tools:context="com.weebly.ghostcoder.login.Profile">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ghostcoder" />
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/imageView"
+        android:text="Siyabonga Gregory"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtProfileName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15dp"
+        android:autoLink="phone"
+        android:hint="084-492-1275"
+        android:inputType="textPassword"
+        android:paddingTop="19sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:autoLink="email"
+        android:hint="huge.fuze@gmail.com"
+        android:inputType="textPassword"
+        android:paddingTop="19sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtLink_a"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:autoLink="web"
+        android:hint="https://www.sgngcobo.weebly.com"
+        android:inputType="textPassword"
+        android:paddingTop="19sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtLink_b"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtLink_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:autoLink="web"
+        android:hint="https://www.ghostcoder.weebly.com"
+        android:inputType="textPassword"
+        android:paddingTop="19sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/txtTopView"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txtLink_b"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#ffff" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/txtTopView"
+        android:layout_marginTop="1dp"
+        android:text="My mission is to help others."
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txtDesc"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="#ffff" />
+
+
+</RelativeLayout>

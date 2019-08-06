@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="signup">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="pasword">Password</string>
+    <string name="retype">Re-Type Password</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="forgot_your_password">forgot your password</string>
+    <string name="login">Login</string>
+
+
+</resources>
